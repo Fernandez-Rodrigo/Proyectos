@@ -17,8 +17,8 @@ from sklearn.metrics import pairwise_distances_argmin_min
 # In[121]:
 
 
-data = pd.read_csv(r"D:\ToTy\Programas necesarios\Python2\DATA SETS\datasets\analisis.csv")
-data
+data = pd.read_csv("Artistas.csv")
+data.head()
 
 
 # Resumen de columnas
