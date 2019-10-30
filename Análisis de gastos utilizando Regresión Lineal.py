@@ -19,7 +19,7 @@ import statsmodels.formula.api as smf
 
 # Importamos los datos del archivo adjunto en el repository con el nombre "Econ Expense.csv"
 
-data = pd.read_csv(r"D:\ToTy\Programas necesarios\Python2\DATA SETS\datasets\ecom-expense\Ecom Expense.csv")
+data = pd.read_csv("Ecom Expense.csv")
 
 data.head()
 
