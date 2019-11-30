@@ -13,7 +13,7 @@ import numpy as np
 # In[2]:
 
 
-data_match = pd.read_csv(r"D:\ToTy\Programas necesarios\Python2\DATA SETS\datasets\LOL\matchinfo.csv")
+data_match = pd.read_csv("matchinfo.csv")
 
 
 # In[3]:
